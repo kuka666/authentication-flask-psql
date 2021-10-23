@@ -22,13 +22,13 @@ CREATE TABLE accounts (
 
 ### Usage
 ```bash
-First of all you should change the your path in test.py.In my instance:
-```
 cd authentication-flask-psql
 cd src
 run the server in compilator 
 web.py
 http://127.0.0.1:5000/
+```
+
 
 
 ### Examples
