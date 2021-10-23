@@ -9,6 +9,8 @@ pip install -r requirements.txt
 
 Also create table in postgresql:
 
+Create the database with name kuka
+
 CREATE TABLE accounts (
 	id serial PRIMARY KEY,
 	username VARCHAR ( 50 ) NOT NULL,
@@ -18,12 +20,14 @@ CREATE TABLE accounts (
 
 
 
+
 ```
 
 ### Usage
 ```bash
 cd authentication-flask-psql
 cd src
+in the 19 and 20 rows write the usernmae and password
 run the server in compilator 
 web.py
 http://127.0.0.1:5000/
