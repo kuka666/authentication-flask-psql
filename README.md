@@ -1,2 +1,53 @@
 # Authentication-flask-psql
 Flask postgreSQL Login Register System with checking token
+
+### Instalation
+Install my repoisitory 
+```bash
+git clone https://github.com/kuka666/authentication-flask-psql.git
+pip install -r requirements.txt
+
+Also create table in postgresql:
+
+CREATE TABLE accounts (
+	id serial PRIMARY KEY,
+	username VARCHAR ( 50 ) NOT NULL,
+	password VARCHAR ( 255 ) NOT NULL,
+	token VARCHAR ( 300 ) NOT NULL
+);
+
+
+
+```
+
+### Usage
+```bash
+First of all you should change the your path in test.py.In my instance:
+```
+cd authentication-flask-psql
+cd src
+run the server in compilator 
+web.py
+http://127.0.0.1:5000/
+
+
+### Examples
+
+Usage examples:
+```python
+# get the login
+http://127.0.0.1:5000/login/
+![image](https://user-images.githubusercontent.com/80199144/138552960-bb60f7be-c78d-4f55-9e85-86be5144f0eb.png)
+# get rhe register
+http://127.0.0.1:5000/register
+![image](https://user-images.githubusercontent.com/80199144/138553002-4deaf614-3ad4-4d9b-8725-437e7b4cdb97.png)
+
+# get the protected
+http://127.0.0.1:5000/protected?token=(write ther token)
+![image](https://user-images.githubusercontent.com/80199144/138553040-87142734-217c-4d2b-84be-8bd7e95b1ada.png)
+
+
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
