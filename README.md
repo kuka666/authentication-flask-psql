@@ -44,13 +44,16 @@ Usage examples:
 ```python
 # get the login
 http://127.0.0.1:5000/login/
+
 ![image](https://user-images.githubusercontent.com/80199144/138552960-bb60f7be-c78d-4f55-9e85-86be5144f0eb.png)
 # get rhe register
 http://127.0.0.1:5000/register
+
 ![image](https://user-images.githubusercontent.com/80199144/138553002-4deaf614-3ad4-4d9b-8725-437e7b4cdb97.png)
 
 # get the protected
 http://127.0.0.1:5000/protected?token=(write ther token)
+
 ![image](https://user-images.githubusercontent.com/80199144/138553040-87142734-217c-4d2b-84be-8bd7e95b1ada.png)
 
 
