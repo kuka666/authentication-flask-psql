@@ -29,7 +29,7 @@ cd authentication-flask-psql
 cd src
 ```
 
-###in the 19 and 20 rows write the usernmae and password
+### in the 19 and 20 rows write the usernmae and password
 ```bash
 run the server in compilator 
 web.py
